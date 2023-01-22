@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <nav class="gauche-container">
+  <h1> Learn to code by <br> watching others </h1>
+
+  <p>See how experienced developers solve problems in real-time.<br>  Watching scripted tutorials is great, 
+  but understanding how <br> developers think is invaluable.</p>
+  </nav>
+
+  
+  <p class="TOP"><strong style="background-color: blue;"> Try it free 7 days </strong> then $20/mo. thereafter</p>
+
+  <div class="container">
+
+  <div class="input">
+    <input type="text" id="first_name" placeholder="First Name">
+    <img src="icon-error.svg" class="input-icon"> 
+    <br>
+    <p id="first_name_error"></p>
+  </div>
+  
+  <div class="input">
+    <input type="text" id="last_name" placeholder="Last Name">
+    <img src="icon-error.svg" class="input-icon"> 
+    <br>
+    <p id="last_name_error"></p>
+  </div>
+  
+  
+  <div class="input">
+    <input type="email" id="email" placeholder="Email Address">
+    <img src="icon-error.svg" class="input-icon"> 
+    <br>
+    <p id="email_error"></p>
+  </div>
+  
+  <div class="input">
+    <input type="password" id="password" placeholder="Password">
+    <img src="icon-error.svg" class="input-icon"> 
+    <br>
+    <p id="password_error"></p>
+  </div>
+  
+  <button type="submit" onclick="validateForm()">CLAIM YOUR FREE TRIAL </button> <br>
+  <p style="background-color: white;"> By clicking the button, you are agreeing to our <strong><a href="" style="background-color:white;"> Terms and Services</a></strong></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
